@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>lixo comercial</title>
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="lixo_comercial.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <img class="logoBgWhite" src="logo.png" alt="">
+            <img class="logoBgBlack" src="logo2.png" alt="">
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+    <main id="top">
+
+        <div class="text12">
+            <h2>Lixo Comercial: O que caracteriza esse tipo de resíduo?</h2>
+            <div class="text1">
+                <img src="Lixo-Comercial-4.jpg" alt="" height="200px" width="350">
+
+                <p><strong>O lixo comercial</strong> Os estabelecimentos comerciais desempenham um papel significativo
+                    na geração de resíduos urbanos, contribuindo com uma parcela considerável, entre 30% e 40%, do total
+                    de resíduos sólidos no Brasil. Destes, entre 50% e 70% são potencialmente recicláveis, incluindo
+                    materiais como papel, papelão, plástico, vidro e metal. A gestão adequada desses resíduos é crucial
+                    não apenas para manter a limpeza urbana, mas também para promover a sustentabilidade ambiental,
+                <div class="eletronico">
+                    <p> reduzindo a demanda por recursos naturais e minimizando o impacto negativo no meio ambiente.
+                        Investir em práticas de reciclagem e conscientização ambiental é fundamental para lidar de forma
+                        eficaz com o lixo comercial e seus desafios associados.não apenas para manter a limpeza urbana,
+                        mas também para promover a sustentabilidade ambiental, reduzindo a demanda por recursos naturais
+                        e minimizando o impacto negativo no meio ambiente. Investir em práticas de reciclagem e
+                        conscientização ambiental é fundamental para lidar de forma eficaz com o lixo comercial e seus
+                        desafios associados.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="video1">
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/00K4pnobsxs?si=cRd45Cn-Cn7A1wEy"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+
+
+            <h2>Qual a importância de descartar o lixo comercial de maneira correta?</h2>
+            <div class="text2">
+                <div class="text4">
+                    <p>
+                        Alguns dos muitos problemas que ocorem com o descarte incorreto do lixo comercial é
+                        destruição dos ecossistemas, perda da biodiversidade e ainda, a contaminação do solo, das águas
+                        e do
+                        ar. O descarte correto é crucial não apenas para manter a limpeza urbana, mas também para
+                        promover a
+                        sustentabilidade
+                        ambiental, reduzindo a demanda por recursos naturais e minimizando o impacto negativo no meio
+                        ambiente.
+
+
+                    </p>
+
+                </div>
+                <div class="text3">
+
+                    <p>
+                        Diversos estabelecimentos já contam com contentores diferentes que recebem um tipo de material
+                        específico: orgânico (papéis usados, restos de comida, dejetos humanos) e inorgânicos (papéis,
+                        vidro, plástico, alumínio, dentre outros).
+
+                        Assim, é possível concluir a postura ética e responsável de cada local. No entanto, muitos ainda
+                        não fazem a separação de materiais, o que gera diversos
+
+                    </p>
+
+                    <img src="cccc.jpg" width="350px" height="200px" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- <footer> -->
+        <footer>
+            <img src="logo_preto.png" alt="" height="120px">
+            <hr>
+            <div class="tudo">
+                <div class="voltar">
+                    <h3>Volte para:</h3>
+                    <a href="">Home</a>
+                </div>
+    
+                <div class="referencias">
+                    <h3>Referências da Página:</h3>
+                    <a href="">Referência um</a>
+                    <a href="">Referência dois</a>
+                    <a href="">Referência três</a>
+                    <a href="">Referência Quatro</a>
+                </div>
+    
+                <div class="links_rapidos">
+                    <h3>Links Rápidos</h3>
+                    <a href="">Siga nosso linktree</a>
+                    <a href="/pag_ind/main.html">Sobre nós</a>
+                    <a href="#">Curiosidades</a>
+                    <a href="#">Campanhas</a>
+                </div>
+    
+    
+            </div>
+    
+            <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+        </footer>
+    
+    </footer>
+
+
+
+</body>
+
+</html>
